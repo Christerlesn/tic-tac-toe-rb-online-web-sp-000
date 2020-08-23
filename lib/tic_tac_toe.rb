@@ -71,6 +71,7 @@ def turn(board)
       return move(board, index, current_player(board))
       turn(board)
     else
+      turn(board)
    display_board(board)
  end
 end
